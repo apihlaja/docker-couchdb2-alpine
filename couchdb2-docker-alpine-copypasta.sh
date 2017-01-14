@@ -77,5 +77,5 @@ cd /usr/src \
   && ./configure --disable-docs --disable-fauxton \
   && make release 
   
-# du -ch
+# du -ch /
 # 533.1M  total
