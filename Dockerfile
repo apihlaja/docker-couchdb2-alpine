@@ -29,7 +29,6 @@ RUN apk add --no-cache --virtual .mozjs-build-deps \
 
 # build couchdb2
 # - TODO: test which erlang packages are actually necessary
-# - TODO: add fauxton deps (disabled atm)
 RUN apk add --no-cache --virtual .build-deps \
     curl perl g++ python make icu-dev nodejs \
     && apk add --no-cache \
